@@ -3,9 +3,15 @@ This is a repository for a machine learning project, implementing several models
 
 ### Linear Regression
 (Jan 27, 2025 - Feb 2, 2025)
+- [x] Review 1/31
+- [x] Implementaion 2/1
+- [x] Comparison 2/1
 
 ### Logistic Regression
-(Feb 3, 2025 - )
+(Feb 2, 2025 - )
+- [x] Review 2/2
+- [] Implementation
+- [] Comparison
 
 ### K-Nearest Neighbors
 
