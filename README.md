@@ -1,8 +1,8 @@
 # Machine Learning from Scratch
-This is a repository for a machine learning project, implementing several models from scratch.
+This is a repository for a machine learning project, implementing 11 models from scratch.
 
 ### Linear Regression
-(Jan 27, 2025 - Feb 2, 2025)
+(Jan 30, 2025 - Feb 2, 2025)
 - [x] Review 1/31
 - [x] Implementaion 2/1
 - [x] Comparison 2/1
@@ -14,23 +14,23 @@ This is a repository for a machine learning project, implementing several models
 - [x] Comparison 2/3
 
 ### K-Nearest Neighbors
-(Feb 4, 2025 - )
-- [] Review 
+(Feb 15, 2025 - )
+- [x] Review 2/15
 - [] Implementation 
 - [] Comparison 
 
-### Decision Trees
-
-### Support Vector Machine
-
 ### Naive Bayes
 
+### Decision Trees
+
 ### K-Means Clustering
+
+### Support Vector Machine
 
 ### Random Forest
 
 ### Principal Component Analysis
 
-### Neural Networks
+### Gradient Boosting
 
-## Gradient Boosting
+### Neural Networks
