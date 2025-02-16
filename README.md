@@ -16,7 +16,7 @@ This is a repository for a machine learning project, implementing 11 models from
 ### K-Nearest Neighbors
 (Feb 15, 2025 - )
 - [x] Review 2/15
-- [] Implementation 
+- [x] Implementation 2/16
 - [] Comparison 
 
 ### Naive Bayes

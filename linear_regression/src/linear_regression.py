@@ -79,8 +79,8 @@ class LinearRegression:
         """Computes R squared score to evaluate model performance.
 
         Args:
-            X (_type_): _description_
-            y (_type_): _description_
+            X (matrix of shape (n_samples, n_features)): test samples
+            y (array of shape (n_samples,)): true values
 
         Returns:
             float: R squared score
