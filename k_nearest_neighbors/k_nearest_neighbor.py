@@ -2,7 +2,7 @@ import numpy as np
 from collections import Counter
 
 class KNearestNeighbors:
-    def __init__(self, k, p=2, task="classification"):
+    def __init__(self, k: int, p=2, task="classification"):
         self.k = k
         self.p = p
         self.task = task
@@ -64,6 +64,7 @@ class KNearestNeighbors:
             if self.task == "classification":
                 yhat.append(Counter(klabels).most_common(1)[0][0])
             elif self.task == "regression":
+                klabels = np.array(klabels, dtype=float)
                 yhat.append(np.mean(klabels))
                 
         return np.array(yhat)
