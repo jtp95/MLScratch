@@ -14,12 +14,16 @@ This is a repository for a machine learning project, implementing 11 models from
 - [x] Comparison 2/3
 
 ### K-Nearest Neighbors
-(Feb 15, 2025 - )
+(Feb 15, 2025 - Mar 4, 2025)
 - [x] Review 2/15
 - [x] Implementation 2/16
-- [] Comparison 
+- [x] Comparison 3/4
 
 ### Naive Bayes
+(Mar 5, 2025 - )
+- [x] Review 3/6
+- [ ] Implementation
+- [ ] Comparison
 
 ### Decision Trees
 
