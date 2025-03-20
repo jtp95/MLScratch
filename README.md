@@ -20,10 +20,10 @@ This is a repository for a machine learning project, implementing 11 models from
 - [x] Comparison 3/4
 
 ### Naive Bayes
-(Mar 5, 2025 - )
+(Mar 5, 2025 - Mar 20, 2025)
 - [x] Review 3/6
-- [ ] Implementation
-- [ ] Comparison
+- [x] Implementation 3/20
+- [x] Comparison 3/20
 
 ### Decision Trees
 
