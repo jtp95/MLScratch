@@ -28,7 +28,7 @@ This is a repository for a machine learning project, implementing 11 models from
 ### Decision Trees
 (Mar 22, 2025 - )
 - [x] Review 3/22
-- [ ] Implementation 
+- [x] Implementation 3/25
 - [ ] Verification
 
 ### K-Means Clustering
