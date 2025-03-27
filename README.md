@@ -26,10 +26,10 @@ This is a repository for a machine learning project, implementing 11 models from
 - [x] Verification 3/20
 
 ### Decision Trees
-(Mar 22, 2025 - )
+(Mar 22, 2025 - Mar 27, 2025)
 - [x] Review 3/22
 - [x] Implementation 3/25
-- [ ] Verification
+- [x] Verification 3/27
 
 ### K-Means Clustering
 

@@ -9,9 +9,15 @@ class TreeNode():
         self.threshold = threshold
         self.left = left
         self.right = right
+        
+    def __str__(self):
+        if self.is_leaf:
+            return f"Leaf node with prediction {self.prediction}"
+        else:
+            return f"Internal node with feature index {self.feature_index} and threshold {self.threshold}; Left: {self.left}; Right: {self.right}"
 
 class DecisionTree():
-    def __init__(self, task="classification", criterion="gini", max_depth=5, min_sample=2):
+    def __init__(self, task="classification", criterion="gini", max_depth=None, min_sample=2):
         self.task = task
         self.criterion = criterion
         self.max_depth = max_depth
@@ -62,7 +68,7 @@ class DecisionTree():
         return best_feature, best_threshold
     
     def _create_node(self, X, y, depth=0):
-        if depth > self.max_depth or len(y) < self.min_sample:
+        if (self.max_depth is not None and depth >= self.max_depth) or len(y) < self.min_sample:
             return self._create_leaf(y)
         
         best_feature, best_threshold = self._best_split(X, y)
@@ -83,7 +89,8 @@ class DecisionTree():
             
     def _create_leaf(self, y):
         if self.task == "classification":
-            pred = max(set(y), key=y.count)
+            unique, count = np.unique(y, return_counts=True)
+            pred = unique[np.argmax(count)]
         elif self.task == "regression":
             pred = np.mean(y)
         return TreeNode(is_leaf=True, prediction=pred)
