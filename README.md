@@ -32,6 +32,10 @@ This is a repository for a machine learning project, implementing 11 models from
 - [x] Verification 3/27
 
 ### K-Means Clustering
+(Mar 31, 2025 - )
+- [x] Review 3/31
+- [x] Implementation 3/31
+- [ ] Verification
 
 ### Support Vector Machine
 

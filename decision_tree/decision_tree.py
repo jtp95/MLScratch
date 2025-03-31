@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 class TreeNode():
     def __init__(self, is_leaf=False, prediction=None, feature_index=None, threshold=None, left=None, right=None):
