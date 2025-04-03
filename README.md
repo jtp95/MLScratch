@@ -32,17 +32,37 @@ This is a repository for a machine learning project, implementing 11 models from
 - [x] Verification 3/27
 
 ### K-Means Clustering
-(Mar 31, 2025 - )
+(Mar 31, 2025 - Apr 1, 2025)
 - [x] Review 3/31
 - [x] Implementation 3/31
-- [x] Verification
+- [x] Verification 4/1
 
 ### Support Vector Machine
+(Apr 2, 2025 - )
+- [ ] Review
+- [ ] Implementation
+- [ ] Verification
 
 ### Random Forest
+( - )
+- [ ] Review
+- [ ] Implementation
+- [ ] Verification
 
 ### Principal Component Analysis
+( - )
+- [ ] Review
+- [ ] Implementation
+- [ ] Verification
 
 ### Gradient Boosting
+( - )
+- [ ] Review
+- [ ] Implementation
+- [ ] Verification
 
 ### Neural Networks
+( - )
+- [ ] Review
+- [ ] Implementation
+- [ ] Verification
