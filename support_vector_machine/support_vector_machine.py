@@ -76,7 +76,7 @@ class Kernel:
 
 
 class KernelSVM:
-    def __init__(self, C=1.0, kernel=None, kernel_params={}):
+    def __init__(self, C=1.0, kernel=Kernel.linear, kernel_params={}):
         self.C = C
         self.kernel = kernel
         self.kernel_params = kernel_params
@@ -118,6 +118,7 @@ class KernelSVM:
         A = matrix(y.T)
         b = matrix(np.zeros(1))
         
+        solvers.options['show_progress'] = False
         sol = solvers.qp(Q, p, G, h, A, b)
         self.alpha = np.ravel(sol['x'])
         
@@ -159,3 +160,7 @@ class KernelSVM:
                 
     def predict(self, X):
         return np.sign(self.project(X))
+    
+    def score(self, X, y):
+        y_pred = self.predict(X)
+        return np.mean(y_pred == y)

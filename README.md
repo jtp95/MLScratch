@@ -38,10 +38,10 @@ This is a repository for a machine learning project, implementing 11 models from
 - [x] Verification 4/1
 
 ### Support Vector Machine
-(Apr 2, 2025 - )
+(Apr 2, 2025 - Apr 10, 2025)
 - [x] Review 4/9
 - [x] Implementation 4/9
-- [ ] Verification
+- [x] Verification 4/10
 
 ### Random Forest
 ( - )
